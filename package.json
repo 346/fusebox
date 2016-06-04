@@ -1,0 +1,25 @@
+{
+  "name": "fusebox",
+  "version": "1.0.0",
+  "description": "fusebox is a minimal framework for fusetools",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers ts:espower-typescript/guess -w test/**/*.ts"
+  },
+  "keywords": [
+    "fusetools"
+  ],
+  "author": "Takahiro Mishiro",
+  "license": "ISC",
+  "devDependencies": {
+    "espower-typescript": "^5.0.1",
+    "mocha": "^2.5.3",
+    "power-assert": "^1.4.1",
+    "sinon": "^1.17.4",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.3"
+  }
+}
